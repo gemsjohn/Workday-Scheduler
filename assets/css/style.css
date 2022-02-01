@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: #0d1117;
 }
 
 textarea{
@@ -16,30 +17,39 @@ textarea{
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: white;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid rgba(9, 122, 252, 0.3);;
 }
 
 .description{
   white-space: pre-wrap;
 }
 
+.hour {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border-radius: 15px 0px 0px 15px;
+  
+}
+
 .time-block{
-  text-align: center;
+  /* text-align: center; */
+  color: white;
   border-radius: 15px;
+  background-image: linear-gradient(180deg, #313233 0%, #383a3d 52%, #313233 90%);
+  transition: all .5s ease-out; 
+}
+
+.save {
+  text-align: center;
+  background: rgba(9, 122, 252, 0.3);
+  border-radius: 0px 15px 15px 0px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
 }
 
 .past {
