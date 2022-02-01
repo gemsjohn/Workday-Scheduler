@@ -5,13 +5,11 @@ body {
   background-color: #0d1117;
 }
 
-textarea{
+textarea#modalTaskDescription{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  color: white;
 }
 
 .jumbotron {
@@ -29,7 +27,7 @@ textarea{
 .hour {
   background-color: rgb(255, 255, 255);
   color: #000000;
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 0px 0px 0px 15px;
   
 }
 
@@ -39,6 +37,10 @@ textarea{
   border-radius: 15px;
   background-image: linear-gradient(180deg, #313233 0%, #383a3d 52%, #313233 90%);
   transition: all .5s ease-out; 
+}
+
+.mouseover-active {
+  background: rgba(0,0,0,0.9);
 }
 
 .save {
@@ -69,10 +71,11 @@ textarea{
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
+  /* border-top-right-radius: 15px; */
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  float: right;
 }
 
 .saveBtn i:hover {
