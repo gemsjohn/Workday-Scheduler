@@ -28,8 +28,5 @@
 ### Header
 ![Workday Scheduler Top](https://github.com/gemsjohn/Workday-Scheduler/blob/main/assets/img/header.png)
 
-### Center
-![Workday Scheduler Center](https://github.com/gemsjohn/Workday-Scheduler/blob/main/assets/img/overlap.png)
-
 ### Submission Page
 ![Workday Scheduler Time Blocks](https://github.com/gemsjohn/Workday-Scheduler/blob/main/assets/img/body.png)
