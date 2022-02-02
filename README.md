@@ -28,5 +28,5 @@
 ### Header
 ![Workday Scheduler Top](https://github.com/gemsjohn/Workday-Scheduler/blob/main/assets/img/header.png)
 
-### Submission Page
+### Time Blocks
 ![Workday Scheduler Time Blocks](https://github.com/gemsjohn/Workday-Scheduler/blob/main/assets/img/body.png)
