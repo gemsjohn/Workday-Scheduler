@@ -25,14 +25,12 @@ textarea#modalTaskDescription{
 }
 
 .hour {
-  /* background-color: rgb(255, 255, 255); */
   color: #000000;
   border-radius: 0px 0px 0px 15px;
   
 }
 
 .time-block{
-  /* text-align: center; */
   color: white;
   border-radius: 15px;
   background-image: linear-gradient(180deg, #313233 0%, #383a3d 52%, #313233 90%);
@@ -71,14 +69,19 @@ textarea#modalTaskDescription{
 
 .saveBtn {
   border-left: 1px solid black;
-  /* border-top-right-radius: 15px; */
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
+  opacity: 0.7;
   color: white;
   float: right;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
+.saveBtn:hover {
+  opacity: 1.0;;
 }
+
+.saveBtn i:hover {
+  opacity: 1.0;
+}
+
+
